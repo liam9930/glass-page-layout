@@ -11,11 +11,22 @@ img {
 *::after {
     box-sizing: border-box;
 }
+
 body {
-    font-family:'Noto Sans TC', sans-serif;
+    font-family: 'Roboto', 'Noto Sans TC', sans-serif;
     line-height: 1.5;
     font-size: 20px;
 }
+
+.font-noto {
+    font-family: "Noto Sans TC";
+}
+
+
+.font-roboto {
+    font-family: "Roboto";
+}
+
 
 h2 {
     font-size: 40;
@@ -25,21 +36,22 @@ h3 {
     font-size: 32px;
 }
 
-a{
-    color:#fff;
+a {
+    color: #fff;
     text-decoration: none;
     display: block;
-    
+
     &:hover {
         color: #a4a3a3;
     }
 }
 
-button{
+button {
     background-color: #fff;
     border: none;
     color: #8D8D8D;
-    &:hover{
+
+    &:hover {
         cursor: pointer;
     }
 
@@ -48,23 +60,28 @@ button{
 .d-flex {
     display: flex;
 }
-.fxd-c{
+
+.fxd-c {
     flex-direction: column;
 }
-.jc-sb{
+
+.jc-sb {
     justify-content: space-between;
 }
-.jc-fe{
+
+.jc-fe {
     justify-content: flex-end;
 }
-.jc-c{
+
+.jc-c {
     justify-content: center;
 }
-.fxw{
+
+.fxw {
     flex-wrap: wrap;
 }
 
-.ai-c{
+.ai-c {
     align-items: center;
 }
 
@@ -85,13 +102,13 @@ button{
     }
 }
 
-.ol-a{
+.ol-a {
     outline: auto;
 }
 
 .btn {
     display: inline-block;
-    width:350px;
+    width: 350px;
     color: #fff;
     border: 2px solid #fff;
     text-align: center;
@@ -100,38 +117,43 @@ button{
     padding: 16px;
 
     &:hover {
-        background-color: rgba(255,255,255,0.2);
+        background-color: rgba(255, 255, 255, 0.2);
         cursor: pointer;
-        color:inherit;
+        color: inherit;
     }
 
 }
-@media(max-width:815px){
-    .btn{
-        width:100%;
+
+@media(max-width:992px) {
+    .btn {
+        width: 100%;
         padding: 13px;
         font-size: 28px;
-        
+
     }
 }
 
 
-.mx-auto{
+.mx-auto {
     margin: 0 auto;
 }
-.mt-20{
+
+.mt-20 {
     margin-top: 20px;
 }
-.mt-60{
+
+.mt-60 {
     margin-top: 60px;
 }
-.mt-80{
+
+.mt-80 {
     margin-top: 80px;
 }
 
-.po-ab{
+.po-ab {
     position: absolute;
 }
-.po-re{
+
+.po-re {
     position: relative;
 }
